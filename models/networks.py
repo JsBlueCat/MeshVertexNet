@@ -5,7 +5,7 @@ from torch.optim import lr_scheduler
 import torch.nn.functional as F
 from torch_geometric.nn import GraphConv
 from models.layers.struct_conv import MeshMlp, NormMlp
-from models.layers.mesh_net_with_out_neigbour import SpatialDescriptor, StructuralDescriptor, MeshConvolution
+from models.layers.mesh_net import SpatialDescriptor, StructuralDescriptor, MeshConvolution
 # ,SpatialDescriptor, StructuralDescriptor, MeshConvolution
 from models.layers.mesh_graph_conv import NormGraphConv, GINConv
 
